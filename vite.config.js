@@ -6,5 +6,6 @@ export default defineConfig({
   base: "/portfolio/",
   resolve: {
     extensions: ['.js', '.jsx'], // Cho phép import không cần đuôi file
+    alias: [{ find: "@", replacement: "/src" }],
   }
 });
