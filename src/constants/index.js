@@ -138,52 +138,6 @@ const technologies = [
     icon: git,
   },
 ];
-// const experiences = [
-//   {
-//     title: "Digital Transformation Consultant",
-//     company_name: "TechNova Solutions",
-//     company_website: "https://www.technovasolutions.com",
-//     icon: newgen,
-//     iconBg: "#E6DEDD",
-//     date: "Feb 2024 - Present",
-//     points: [
-//       "Leading digital transformation initiatives by integrating AI, cloud solutions, and automation.",
-//       "Collaborated with cross-functional teams to design innovative digital marketing strategies.",
-//       "Leveraged data analytics to drive customer insights and optimize campaign performance.",
-//       "Managed end-to-end project delivery for scalable and secure enterprise solutions.",
-//     ],
-//   },
-//   {
-//     title: "AI & Digital Marketing Strategist",
-//     company_name: "InnovateX Digital",
-//     company_website: "https://www.innovatedigital.com",
-//     icon: nickelfox,
-//     iconBg: "#E6DEDD",
-//     date: "Jul 2022 - Jan 2024",
-//     points: [
-//       "Developed AI-driven solutions to enhance digital marketing campaigns.",
-//       "Implemented data-driven strategies to boost online engagement and conversion rates.",
-//       "Coordinated with creative and technical teams to launch innovative marketing tools.",
-//       "Optimized customer acquisition through targeted analytics and A/B testing.",
-//     ],
-//   },
-//   {
-//     title: "Software Engineer & Cloud Integration Specialist",
-//     company_name: "CloudEdge Technologies",
-//     company_website: "https://www.cloudedge.com",
-//     icon: skillrisers,
-//     iconBg: "#E6DEDD",
-//     date: "Mar 2020 - Jun 2022",
-//     points: [
-//       "Designed and developed cloud-integrated software solutions for enterprise clients.",
-//       "Optimized system performance by implementing scalable microservices architecture.",
-//       "Collaborated on the integration of cloud services with existing IT infrastructure.",
-//       "Ensured robust security and data integrity across cloud-based platforms.",
-//     ],
-//   },
-// ];
-
-
 const experiences = [
   {
     icon: coding,
@@ -268,7 +222,7 @@ const projects = [
     name: "Tài khoản Premium & Hỗ trợ Công cụ Làm việc, Học tập",
     description:
       "Cung cấp các tài khoản premium cho Netflix, Spotify, YouTube Premium, Canva Pro, Capcut Pro, giúp khách hàng trải nghiệm trọn vẹn tiện ích công nghệ.",
-    hosted_link: "https://www.facebook.com/duykhanhit15/",
+    hosted_link: "https://duykhanhmedia.github.io/accounts/",
     image: premium,
     tags: [
       {
@@ -349,6 +303,11 @@ const publicUrls = {
     github: {
       title: "Zalo",
       link: "https://zalo.me/0345202500",
+      icon: coding,
+    },
+    premium: {
+      title: "Premium Accounts",
+      link: "https://duykhanhmedia.github.io/accounts/",
       icon: coding,
     },
   },
